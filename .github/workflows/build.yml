@@ -30,7 +30,6 @@ jobs:
     - name: Run vet & lint
       run: |
         go vet .
-        golangci-lint .
 
     # Run testing on the code
     - name: Run testing
